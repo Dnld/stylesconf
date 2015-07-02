@@ -119,11 +119,14 @@ body {
  
  .tagline {
     margin: 66px 0 22px 0;
+    text-align: right;
  }
  
  .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
  }
  
 /*
@@ -162,6 +165,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 strong {
@@ -182,12 +186,17 @@ cite, em {
     ===============================================
 */
 
+a {
+    color: #649990;
+    text-decoration: none;
+}
+
 a:hover {
     color: #a9b2b9;
 }
 
-a {
-    color: #649990;
+p a {
+    border-bottom: 1px solid #dfe2e5;
 }
 
 /*
@@ -215,6 +224,16 @@ a {
 
 .hero {
     padding: 22px 80px 66px 80px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.hero p {
+    font-size: 24px;
 }
 
 /*
@@ -250,6 +269,15 @@ a {
     padding-bottom: 44px;
 }
 
+/*
+    ===============================================
+    Navigation
+    ===============================================
+*/
+
+.nav {
+    text-align: right;
+}
 
 /*
     =================================================
